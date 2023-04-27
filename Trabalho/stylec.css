@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    background-color: silver;
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    list-style-type: none;
+    background-color: black;
+}
+
+.cabecalho a{
+    text-decoration: none;
+    color:white;
+}
+
+p{
+    padding: 40px;
+    font-size: 20px;
+}
+
+.tx{
+    font-size: 35px;
+}
+
+.cont{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+.conteiner{
+    padding: 40px;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .conteiner {
+        width: 90%;
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    .conteiner {
+        margin: auto;
+        width: 50%;
+    }
+  }
+
+.insta{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+  
+.insta:hover{
+    background-color: rebeccapurple;
+    padding: 40px 50px;
+}
+
+.tw{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+  
+.tw:hover{
+    background-color: rgb(0, 162, 255);
+    padding: 40px 50px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+.button-tw{
+    padding: 10px;
+    margin-block-end: 40px;
+}
+
+.button-in{
+    padding: 10px;
+    margin-block-end: 40px;
+}
+
+footer{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}

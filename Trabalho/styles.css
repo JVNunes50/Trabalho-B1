@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    background-color: silver;
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    list-style-type: none;
+    background-color: black;
+}
+
+.cabecalho a{
+    text-decoration: none;
+    color:white
+}
+
+p{
+    padding: 40px;
+    font-size: 20px;
+}
+
+.tx{
+    font-size: 35px;
+}
+
+.vava{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.fut{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.tv{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.container{
+    padding: 40px;
+}
+
+@media screen and (min-width: 100px) {
+    .container {
+        margin: auto;
+    }
+    img{
+        width: 30%;
+    }
+}
+
+footer{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
